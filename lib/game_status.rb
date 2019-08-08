@@ -29,3 +29,5 @@ def full?(board)
   board.all? {|index| index == "X" or index == "O"}
 end 
 
+def draw?(board)
+  board.
